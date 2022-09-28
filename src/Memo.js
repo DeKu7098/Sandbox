@@ -13,7 +13,7 @@ function Memo() {
   const isEven = useMemo(() => {
     console.warn("....");
     let i = 0;
-    while (i < 2000) i++;
+    while (i < 200000000) i++;
 
     return counterOne % 2 === 0;
   }, [counterOne]);
